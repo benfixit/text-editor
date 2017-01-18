@@ -28,6 +28,7 @@ fileMenu = Menu(menu)
 fileMenu.add_command(label="New", command=new_file)
 fileMenu.add_command(label="Open", command=open_file)
 fileMenu.add_command(label="Save", command=save_file)
+fileMenu.add_command(label="Exit", command=root.quit)
 fileMenu.add_separator()
 
 menu.add_cascade(label="File", menu=fileMenu)
